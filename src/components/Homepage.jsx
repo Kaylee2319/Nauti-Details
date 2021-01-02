@@ -32,8 +32,8 @@ const Homepage = () => {
                 <img className='Homepage_Imagescroll' src={looking} alt='hull cleaning'/>
                 <img className='Homepage_Imagescroll' src={palmtree} alt='hull cleaning'/>
               </div>
-                {/* <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/> */}
-                {/* <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script> */}
+                <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/>
+                <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
                <button className='Homepage_Button'><PopupText
                 color="#001997"
                 text="Book Your Appointment Now"
@@ -41,7 +41,9 @@ const Homepage = () => {
                </button>
         </div>
         </div>
+        <div className='Homepage_Footer'>
         <Footer />
+        </div>
     </body>
   );
 };
