@@ -65,7 +65,6 @@ const Homepage = () => {
                     <img src={whitehullclean } alt='hull cleaning'/>
                 </div>
                 </Carousel>
-
                 </Modal>
               </div>
                 <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/>

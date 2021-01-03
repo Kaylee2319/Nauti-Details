@@ -62,10 +62,15 @@
 .About_Imagescroll{
     height: 79px;
     width: 79px;
-    margin-left: 10px;
+    margin-left: 5px;
+}
+
+.About_Imagescrolls{
+    border: none;
+    background: none;
 }
 #About_scrollbar{
-    margin-left: 2.2rem;
+    margin-left: .5rem;
 }
 .About_Button{
     height: 42px;
@@ -85,4 +90,58 @@
     position: sticky;
     bottom: 0;
     margin-top: 2rem;
+}
+.About_Carousel.carousel-slider {
+    overflow: inherit;
+}
+
+.About_Carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+    background-color: transparent;
+    right: -146px;
+}
+
+.About_Carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+    background-color: transparent;
+    left: -146px;
+}
+
+.About_Carousel .control-arrow, .About_carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+
+.About_Carousel .control-next.control-arrow:before {
+    content: '<';
+    border: solid #0135AD;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+}
+
+.About_Carousel .control-prev.control-arrow:before {
+    content: '>';
+    border: solid #001997;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.Modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.About_Carousel{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 3rem;
+    margin-top: 7rem;
+}
+.About_CarouselImages{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
