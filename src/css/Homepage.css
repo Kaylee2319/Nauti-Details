@@ -33,21 +33,30 @@
     width: 308px;
 }
 .Homepage_Images{
-    height: 93px;
+    height: 103px;
     width: 100vw;
     display: flex;
     align-items: center;
     overflow: scroll;
     background-color: #23c1c434;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 .Homepage_Imagescroll{
-    height: 79px;
-    width: 79px;
+    height: 89px;
+    max-width: 89px;
+    min-width: 89px;
+}
+.Homepage_Imagescrolls{
+    height: 89px;
+    max-width: 89px;
+    min-width: 89px;
     margin-left: 10px;
+    background-size: 125%;
+    border: none;
+    background: none;
 }
 #Homepage_scrollbar{
-    margin-left: 2.2rem;
+    margin-left: 1.5rem;
 }
 .Homepage_Button{
     height: 42px;
@@ -67,7 +76,73 @@
     position: absolute;
     bottom: 0;
 }
+.carousel.carousel-slider {
+    overflow: inherit;
+}
 
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+    background-color: transparent;
+    right: -146px;
+}
+
+.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+    background-color: transparent;
+    left: -146px;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+
+.carousel .control-next.control-arrow:before {
+    content: '';
+    border: solid #0135AD;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+}
+
+.carousel .control-prev.control-arrow:before {
+    content: '>';
+    border: solid #001997;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.Modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.Carousel{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 3rem;
+    margin-top: 7rem;
+}
+.CarouselImages{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 6rem;
+    margin-bottom: -6rem;
+}
+.ModalButton{
+    height: 3rem;
+    width: 3rem;
+    font-size: 40px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    color:#001997;
+}
 @media only screen and (min-height: 812px) {
     
 .Homepage_Title{
@@ -89,8 +164,7 @@
 }
 .Homepage_Imagescroll{
     height: 89px;
-    max-width: 89px;
-    min-width: 89px;
+    width: auto;
     
 }
 #Homepage_scrollbar{
