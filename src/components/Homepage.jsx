@@ -47,22 +47,22 @@ const Homepage = () => {
                 <button className="ModalButton" onClick={setModalIsOpenToFalse}>x</button>
                 <Carousel className='Carousel' showThumbs={false} >
                 <div className='CarouselImages'>
-                    <img src={bluehullclean} />
+                    <img src={bluehullclean} alt='hull cleaning' />
                 </div>
                 <div className='CarouselImages'>
-                    <img src={Lookingatboat} />
+                    <img src={Lookingatboat} alt='hull cleaning'/>
                 </div>
                 <div className='CarouselImages'>
-                    <img src={Beforeandafter} />
+                    <img src={Beforeandafter} alt='hull cleaning'/>
                 </div>
                 <div className='CarouselImages'>
-                    <img src={palmtree} />
+                    <img src={palmtree} alt='hull cleaning'/>
                 </div>
                 <div className='CarouselImages'>
-                    <img src={Bowboat} />
+                    <img src={Bowboat} alt='hull cleaning'/>
                 </div>
                 <div className='CarouselImages'>
-                    <img src={whitehullclean } />
+                    <img src={whitehullclean } alt='hull cleaning'/>
                 </div>
                 </Carousel>
 
