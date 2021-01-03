@@ -2,6 +2,7 @@
 
 .Homepage_Body{
     overflow: scroll;
+    height: 73vh;
 }
 .Homepage_Name{
     display: flex;
@@ -74,7 +75,6 @@
 }
 .Homepage_Footer{
     position: absolute;
-    bottom: 0;
 }
 .carousel.carousel-slider {
     overflow: inherit;
@@ -173,4 +173,55 @@
 .Homepage_Button{
     margin-top: 3rem;
 }
-  }
+}
+
+@media only screen and (min-width: 1024px) {
+   
+    .Homepage_Body{
+        height: 95vh;
+    }
+    .Homepage_Title{
+        font-size: 55px;
+    }
+    .Homepage_Subtitle{
+        font-size: 30px;
+    }
+    .Homepage_Image{
+        height: 349px;
+        width: auto;
+        margin-top: 2rem;
+    }
+    .Homepage_Images{
+        height: 326px;
+        margin-top: 5rem;
+    }
+    .Homepage_Imagescroll{
+        height: 241px;
+        max-width: 241px;
+        min-width: 241px;
+    }
+    .Homepage_Imagescrolls{
+        height: 241px;
+        max-width: 241px;
+        min-width: 241px;
+        margin-left: 20px;
+        background-size: 125%;
+    }
+    #Homepage_scrollbar{
+        margin-left: 1.5rem;
+    }
+    .Homepage_Button{
+        height: 87px;
+        width: 494px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 5rem;
+    }
+   
+    .ModalButton{
+        height: 3rem;
+        width: 3rem;
+        font-size: 50px;
+}
+}
+

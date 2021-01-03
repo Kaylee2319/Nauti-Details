@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <div className='Contact_Buttons'>
             <a className='Contact_Button' href="tel:3152928282">Call Now</a>
-            <a className='Contact_Button' href="mailto:nautidetailsservice@gmail.com">EMAIL Us</a> 
+            <a className='Contact_Button' href="mailto:nautidetailsservice@gmail.com">Email Us</a> 
             </div>
                 <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/>
                 <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>

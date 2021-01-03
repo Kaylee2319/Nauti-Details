@@ -2,6 +2,7 @@
 
 .About_Body{
     overflow: scroll;
+    height: 73vh;
 }
 .About_Name{
     display: flex;
@@ -21,7 +22,7 @@
     font-weight: 400;
 }
 .About_Subtitle{
-    font-size: 15px;
+    font-size: 14px;
     color: #001997;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -87,9 +88,7 @@
     margin-top: 1.75rem;
 }
 .About_Footer{
-    position: sticky;
-    bottom: 0;
-    margin-top: 2rem;
+    position: absolute;
 }
 .About_Carousel.carousel-slider {
     overflow: inherit;
@@ -144,4 +143,49 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .About_Body{
+        height: 105vh;
+    }
+    .About_Title{
+        font-size: 55px;
+    }
+    .About_Subtitle{
+        font-size: 30px;
+        margin-top: -.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .About_Info{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        font-size: 25px;
+    }
+    .About_InfoTitle{
+        font-size: 28px;
+    }
+    .About_Family{
+        font-size: 28px;
+        margin-top: 1rem;
+    }
+    .About_Images{
+        height: 326px;
+        
+    }
+    .About_Imagescroll{
+        height: 241px;
+        width: 241px;
+        margin-left: 5px;
+    }
+    
+    .About_Imagescrolls{
+        border: none;
+        background: none;
+    }
+    #About_scrollbar{
+        margin-left: .5rem;
+    }
+  
 }

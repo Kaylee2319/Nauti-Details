@@ -15,3 +15,26 @@
     font-weight: 200;
     color: white;
 }
+.Facebook{
+    font-size: 25px;
+    color: #23C2C4;
+}
+.Instagram{
+    font-size: 25px;
+    color: #23C2C4;
+}
+@media only screen and (min-width: 1024px) {
+    .Footer_Body{
+        height: 130px;
+        width:100vw;
+    }
+    .Footer_Name{
+        font-size: 24px;
+    }
+    .Facebook{
+        font-size: 50px;
+    }
+    .Instagram{
+        font-size: 50px;
+    }
+}

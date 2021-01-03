@@ -33,3 +33,16 @@
     font-size: 15px;
     font-weight: 400;
 }
+@media only screen and (min-width: 1024px) {
+    
+    .Navbar_Image{
+        height: 200px;
+    }
+    .Navbar_Name{
+        font-size: 30px;
+    }
+    .Navbar_Link{
+        font-size: 28px;
+    }
+}
+

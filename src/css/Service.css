@@ -2,6 +2,7 @@
 
 .Service_Body{
     overflow: scroll;
+    height: 73vh;
 }
 .Service_Name{
     display: flex;
@@ -79,7 +80,46 @@
     margin-top: 1.75rem;
 }
 .Service_Footer{
-    position: sticky;
-    bottom: 0;
-    margin-top: 2rem;
+    position: absolute;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Service_Body{
+        overflow: scroll;
+        height: 73vh;
+    }
+    .Service_Title{
+        font-size: 55px;
+    }
+    .Service_Subtitle{
+        font-size: 30px;
+        margin-top: -.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .Service_Info{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        font-size: 25px;
+    }
+    .Service_InfoTitle{
+        font-size: 28px;
+    }
+    
+    .Service_Family{
+        font-size: 15px;
+        margin-bottom: .5rem;
+    }
+    .Service_Images{
+        height: 93px;
+        width: 100vw;
+        margin-top: 1.5rem;
+    }
+    .Service_Imagescroll{
+        height: 79px;
+        width: 79px;
+        margin-left: 10px;
+    }
+    #Service_scrollbar{
+        margin-left: 2.2rem;
+    }
 }
