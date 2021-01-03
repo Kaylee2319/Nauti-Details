@@ -11,6 +11,7 @@ import Bowboat from '../images/Bowboat.jpeg'
 import Lookingatboat from '../images/Lookingatboat.jpeg'
 import palmtree from '../images/palmtree.jpeg' 
 import { Carousel } from "react-responsive-carousel";
+import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import Modal from 'react-modal';
 
 
@@ -44,7 +45,7 @@ const Homepage = () => {
                 <button className='Homepage_Imagescrolls'onClick={setModalIsOpenToTrue}><img className='Homepage_Imagescroll' src={Beforeandafter} alt='hull cleaning'/></button>
                 <Modal isOpen={modalIsOpen} className="Modal">
                 <button className="ModalButton" onClick={setModalIsOpenToFalse}>x</button>
-                <Carousel className='Carousel' showThumbs={false} >
+                <Carousel style={styles} className='Carousel' showThumbs={false} >
                 <div className='CarouselImages'>
                     <img src={bluehullclean} alt='hull cleaning' />
                 </div>
@@ -52,7 +53,7 @@ const Homepage = () => {
                     <img src={Lookingatboat} alt='hull cleaning'/>
                 </div>
                 <div className='CarouselImages'>
-                    <img src={Beforeandafter} alt='hull cleaning'/>
+                    <img src={Beforeandafter} alt='hull cleaning' />
                 </div>
                 <div className='CarouselImages'>
                     <img src={palmtree} alt='hull cleaning'/>
