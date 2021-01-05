@@ -59,7 +59,7 @@ const About = () => {
                <button className='About_Imagescrolls'onClick={setModalIsOpenToTrue}><img className='About_Imagescroll' src={roseandrup} alt='hull cleaning'/></button>
                <button className='About_Imagescrolls'onClick={setModalIsOpenToTrue}><img className='About_Imagescroll' src={court} alt='hull cleaning'/></button>
                <button className='About_Imagescrolls'onClick={setModalIsOpenToTrue}><img className='About_Imagescroll' src={ducks} alt='hull cleaning'/></button>
-                <Modal isOpen={modalIsOpen} className="Modal">
+                <Modal isOpen={modalIsOpen} className="About_Modal">
                 <button className="ModalButton" onClick={setModalIsOpenToFalse}>x</button>
                 <Carousel style={styles} className='About_Carousel' showThumbs={false} >
                 <div className='About_CarouselImages'>
@@ -116,5 +116,7 @@ const About = () => {
     </body>
   );
 };
+
+
 
 export default About;

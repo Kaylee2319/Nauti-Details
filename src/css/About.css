@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+
 .About_Body{
-    overflow: scroll;
-    height: 73vh;
+    overflow: hidden;
+    height: 121vh;
 }
 .About_Name{
     display: flex;
@@ -56,7 +57,7 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    overflow: scroll;
+    overflow-x: scroll;
     background-color: #23c1c434;
     margin-top: 1.5rem;
 }
@@ -90,42 +91,7 @@
 .About_Footer{
     position: absolute;
 }
-.About_Carousel.carousel-slider {
-    overflow: inherit;
-}
-
-.About_Carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
-    background-color: transparent;
-    right: -146px;
-}
-
-.About_Carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
-    background-color: transparent;
-    left: -146px;
-}
-
-.About_Carousel .control-arrow, .About_carousel.carousel-slider .control-arrow{
-    opacity: 1;
-}
-
-.About_Carousel .control-next.control-arrow:before {
-    content: '<';
-    border: solid #0135AD;
-    border-width: 0 8px 8px 0;
-    display: inline-block;
-    padding: 14px;
-}
-
-.About_Carousel .control-prev.control-arrow:before {
-    content: '>';
-    border: solid #001997;
-    border-width: 0 8px 8px 0;
-    display: inline-block;
-    padding: 14px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-}
-.Modal{
+.About_Modal{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,7 +114,7 @@
 @media only screen and (min-width: 1024px) {
 
     .About_Body{
-        height: 105vh;
+        height: 110vh;
     }
     .About_Title{
         font-size: 55px;
@@ -188,4 +154,35 @@
         margin-left: .5rem;
     }
   
+}
+@media only screen and (min-width: 1824px) {
+
+    .About_Modal{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 50vw;
+        margin-left: 28rem;
+        margin-top: 9rem;
+    }
+    .About_Carousel{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 50vw;
+        margin: 0rem;
+}
+    .About_CarouselImages{
+        margin: 0;
+        height: 100%;
+        margin-top: -6rem;
+        
+        
+}
 }

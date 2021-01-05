@@ -3,7 +3,7 @@ import Footer from './Footer';
 import { PopupText } from "react-calendly";
 import Navbar from './Navbar';
 import '../css/Contact.css';
-import aonboat from '../images/aonboat.png'
+import Aonvoats from '../images/Aonvoats.png'
 
 const Contact = () => {
  
@@ -12,7 +12,8 @@ const Contact = () => {
     <Navbar />
       <div className='Contact_Body'>
           <div className='Contact_Name'>
-            <div className='Contact_Titles'>
+            <div className='Contact_Information'>
+              <div className='Contact_Titles'>
               <h3 className='Contact_Title'>GET IN TOUCH</h3>
               <h3 className='Contact_Subtitle'>nautidetailsservice@gmail.com</h3>
               <h3 className='Contact_Subtitle'>315-292-8282</h3>
@@ -23,13 +24,20 @@ const Contact = () => {
             </div>
                 <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/>
                 <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+               <div className='Contact_Book'>
                <button className='Homepage_Button'><PopupText
                 color="#001997"
                 text="Book Your Appointment Now"
                 url="https://calendly.com/nautidetails/consultation"/>
                </button>
+               </div>
+               <div className='Contact_Satifaction'>
                <h3 className='Contact_Subtitle2'>Your Satisfaction Is Our Priority</h3>
-               <img className='Contact_Image' src={aonboat} alt='waterdrophull'/>
+               </div>
+               </div>
+               <div className='Contact_DesktopImage'>
+               <img className='Contact_Image' src={Aonvoats} alt='waterdrophull'/>
+               </div>
         </div>
         </div>
         <div className='Homepage_Footer'>

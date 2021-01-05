@@ -15,10 +15,13 @@ const Service = () => {
             <div className='Service_Titles'>
               <h3 className='Service_Title'>DETAILING, WASHING, WAXING</h3>
             </div>
+            <div className='Service_Desktop'>
+            <div className='Service_Image'></div>
             <div className='Service_Info'>
                 <p className='Service_TheInfo1'>Nauti Details & Service offers detailed washing, waxing, hull waxing/compounding, mold/mildew removal, metal shining, clean organized hatches, and any other need upon request. Hire us for this service and learn how we cater to the needs of each client, ensuring the results you need and deserve.</p>
                 <p className='Service_TheInfo3'>How we charge...</p>
                 <p className='Service_TheInfo2'>Our minimum price is $3/ft for a detailed wash. We like to see the boat before we negotiate a price with our clients. Depending on the condition we will come up with a fair price together. Call with any questions and thank you for your business!</p>
+            </div>
             </div>
                 <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"/>
                 <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>

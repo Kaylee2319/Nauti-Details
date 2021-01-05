@@ -3,7 +3,7 @@
 
 .Contact_Body{
     overflow: scroll;
-    height: 73vh;
+    height: 75vh;
 }
 .Contact_Name{
     display: flex;
@@ -107,14 +107,30 @@
 }
 .Contact_Image{
     height: 110px;
-    width: auto;
+    width: 280px;
     margin-top: 1rem;
+    object-fit: cover;
+}
+.Contact_Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.Contact_Book{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Contact_Satifaction{
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (min-width: 1024px) {
     
 .Contact_Body{
-    overflow: scroll;
-    height: 73vh;
+    overflow: hidden;
+    height: 110vh;
 }
 .Contact_Title{
     font-size: 55px;
@@ -124,15 +140,7 @@
     margin-bottom: 3rem;
 
 }
-.Contact_Images{
-    height: 93px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    overflow: scroll;
-    background-color: #23c1c434;
-    margin-top: 1.5rem;
-}
+
 .Contact_Imagescroll{
     height: 79px;
     width: 79px;
@@ -181,8 +189,36 @@
     margin-top: 2rem;
 }
 .Contact_Image{
-    height: 218px;
-    width: auto;
+    height: 210px;
+    width: 580px;
     margin-top: 1rem;
+    object-fit: cover;
+}
+.Contact_Book{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media only screen and (min-width: 1824px) {
+
+    .Contact_Body{
+        overflow: hidden;
+        height: 75vh;
+    }
+.Contact_Image{
+    height: 475px;
+    width: 531px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+}
+.Contact_Name{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 }

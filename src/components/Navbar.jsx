@@ -10,7 +10,9 @@ const Navbar = () => {
           <img className='Navbar_Image' src={Nautilogo} alt='Nauti Logo'/>
           <div className='Navbar_Name'>NAUTI DETAILS & SERVICE LLC</div>
       </div>
+      <div className='Navbar_Desktop'>
       <div className='Navbar_Line'> </div>
+      </div>
       <div className='Navbar_Links'>
           <Link to='/' className='Navbar_Link'>Home</Link>
           <Link to='/about' className='Navbar_Link'>About</Link>

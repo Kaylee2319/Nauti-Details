@@ -35,7 +35,10 @@ const Homepage = () => {
               <h3 className='Homepage_Title'>MOBILE BOAT DETAILING</h3>
               <h3 className='Homepage_Subtitle'>Your Satisfaction Is Our Priority</h3>
             </div>
+            <div className='Homepage_Imgdiv'>
               <img className='Homepage_Image' src={Homepageimg} alt='waterdrophull'/>
+              </div>
+              <div className='Homepage_NeededDiv'>
               <div className='Homepage_Images'>
                 <button className='Homepage_Imagescrolls' id='Homepage_scrollbar' onClick={setModalIsOpenToTrue}><img className='Homepage_Imagescroll' src={bluehullclean} alt='hull cleaning'/></button>
                 <button className='Homepage_Imagescrolls'onClick={setModalIsOpenToTrue}><img className='Homepage_Imagescroll' src={Lookingatboat} alt='hull cleaning'/></button>
@@ -74,6 +77,7 @@ const Homepage = () => {
                 text="Book Your Appointment Now"
                 url="https://calendly.com/nautidetails/consultation"/>
                </button>
+               </div>
         </div>
         </div>
         <div className='Homepage_Footer'>
