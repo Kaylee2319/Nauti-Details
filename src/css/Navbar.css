@@ -45,6 +45,26 @@
         font-size: 28px;
     }
 }
+@media only screen and (min-width: 1350px) {
+    .Navbar_Links{
+        justify-content: right;
+        margin-left: 5rem;
+    }
+    .Navbar_Link{
+        font-size: 24px;
+        margin-left: 2rem;
+
+    }
+    .Navbar_Desktop{
+        display: flex;
+        justify-content: center;
+    }
+    .Navbar_Line{
+        width: 89%;
+        height: auto;
+        border-top: 1px solid #001997;
+    }
+}
 @media only screen and (min-width: 1824px) {
     .Navbar_Links{
         justify-content: right;

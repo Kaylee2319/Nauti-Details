@@ -201,6 +201,26 @@
     align-items: center;
 }
 }
+@media only screen and (min-width: 1350px) {
+    .Contact_Body{
+        overflow: hidden;
+        height: 90vh;
+    }
+.Contact_Image{
+    height: 475px;
+    width: 531px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+}
+.Contact_Name{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+}
 @media only screen and (min-width: 1824px) {
 
     .Contact_Body{

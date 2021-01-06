@@ -123,6 +123,55 @@
         margin-left: 2.2rem;
     }
 }
+
+@media only screen and (min-width: 1350px){
+    .Service_Body{
+        overflow: hidden;
+        height: 130vh;
+    }
+    .Service_Desktop{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .Service_Image{
+        background-image: url('../images/designlogo.png');
+        height: 43rem;
+        width: 30rem;
+        margin-left: 10rem;
+        margin-top: -5rem;
+    }
+    .Service_Name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Service_Titles{
+        margin-left: 8rem;
+        z-index: 2;
+    }
+    .Service_Title{
+        font-size: 55px;
+        color: #23C2C4;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    .Service_Subtitle{
+        font-size: 15px;
+        color: #001997;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: -.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .Service_Info{
+      margin-top: -4rem;
+      width: 30%;
+      font-size: 23px;
+    }}
 @media only screen and (min-width: 1824px) {
 
     .Service_Body{
